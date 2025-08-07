@@ -1,0 +1,72 @@
+body {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    padding: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #ff00ff;
+}
+nav {
+    background: #333;
+    padding: 10px;
+}
+nav a {
+    color: #00ffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav a:hover {
+    text-shadow: 0 0 5px #ff00ff;
+}
+.hero {
+    margin: 20px;
+}
+.hero img {
+    max-width: 100%;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+.blog-teaser {
+    margin: 20px;
+}
+button {
+    background: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+    background: #00ffff;
+    color: #000;
+}
+.content {
+    margin: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.content img {
+    max-width: 100%;
+    border: 1px solid #ff00ff;
+    margin: 10px 0;
+}
+.content h2 {
+    color: #00ffff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+.footer {
+    background: #333;
+    padding: 10px;
+    font-size: 0.8em;
+}
